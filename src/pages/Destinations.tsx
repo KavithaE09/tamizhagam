@@ -35,9 +35,21 @@ const Destinations = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-teal-600 to-orange-500 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero Section with Background Image */}
+      <div
+        className="relative w-full min-h-[400px] flex items-center justify-center text-center text-white"
+        style={{
+          backgroundImage: `url('https://www.poojn.in/wp-content/uploads/2025/03/Sacred-Spaces-of-Tamil-Nadu-A-Spiritual-Exploration.jpeg.jpg')`, // your Google image URL
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+           backgroundRepeat: 'no-repeat',
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

@@ -41,7 +41,7 @@ const Hero = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3568506/pexels-photo-3568506.jpeg?auto=compress&cs=tinysrgb&w=1920')`
+            backgroundImage: `url('https://s7ap1.scene7.com/is/image/incredibleindia/1-meenakshi-amman-temple-madurai-tamil-nadu-attr-hero?qlt=82&ts=1726654442664')`
           }}
         />
         
@@ -49,7 +49,7 @@ const Hero = () => {
         <motion.div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/8471709/pexels-photo-8471709.jpeg?auto=compress&cs=tinysrgb&w=1920')`
+            backgroundImage: `url('https://s7ap1.scene7.com/is/image/incredibleindia/1-meenakshi-amman-temple-madurai-tamil-nadu-attr-hero?qlt=82&ts=1726654442664')`
           }}
           animate={{ opacity: [0, 0.3, 0] }}
           transition={{ duration: 8, repeat: Infinity, repeatType: "reverse" }}
@@ -345,7 +345,7 @@ const Hero = () => {
             transition={{ duration: 2, repeat: Infinity }}
           />
         </motion.div>
-        <p className="text-center text-sm mt-2 opacity-70">Scroll to explore</p>
+        
       </motion.div>
     </div>
   );

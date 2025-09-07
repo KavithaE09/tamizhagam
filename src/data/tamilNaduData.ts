@@ -1278,43 +1278,6 @@ export const tamilNaduDistricts: District[] = [
         available: true
       }
     ]
-  },
-  {
-    id: 'perambalur',
-    name: 'Perambalur',
-    description: 'Small district known for agriculture and limestone quarries.',
-    image: 'https://vehicledetail.info/images/?city=PERAMBALUR&state=TAMIL%20NADU&rto=TN46',
-    history: 'Perambalur, one of the smallest districts in Tamil Nadu, was carved out from Tiruchirappalli district. The area is primarily agricultural with some limestone quarrying activities.',
-    attractions: [
-      {
-        id: 'perambalur-temple',
-        name: 'Perambalur Temple',
-        description: 'Local temple with traditional architecture.',
-        image: 'https://images.pexels.com/photos/8471709/pexels-photo-8471709.jpeg?auto=compress&cs=tinysrgb&w=800',
-        category: 'temple',
-        rating: 3.9,
-        districtId: 'perambalur'
-      }
-    ],
-    malls: [
-      { name: 'Perambalur Shopping Center', location: 'Main Road', rating: 3.4 }
-    ],
-    restaurants: [
-      { name: 'Hotel Selvam', cuisine: 'South Indian', location: 'Bus Stand', rating: 3.7 }
-    ],
-    beaches: [],
-    hotels: [
-      {
-        id: 'hotel-perambalur',
-        name: 'Hotel Perambalur',
-        description: 'Simple accommodation in rural setting.',
-        image: 'https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=800',
-        price: 2200,
-        rating: 3.5,
-        amenities: ['WiFi', 'Restaurant', 'AC'],
-        districtId: 'perambalur',
-        available: true
-      }
-    ]
   }
+  
 ];
